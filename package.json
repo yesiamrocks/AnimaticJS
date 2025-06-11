@@ -1,0 +1,37 @@
+{
+  "name": "animaticjs",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript animation library for scroll, hover, click and more. From Static to Cinematic.",
+  "main": "dist/animatic.js",
+  "module": "dist/animatic.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "type": "module",
+  "keywords": [
+    "animation",
+    "scroll",
+    "trigger",
+    "hover",
+    "click",
+    "cssanimation",
+    "frontend",
+    "motion",
+    "interaction"
+  ],
+  "author": "Pavel <shafayatul.islam@sebpo.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yesiamrocks/animaticjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yesiamrocks/animaticjs/issues"
+  },
+  "homepage": "https://github.com/yesiamrocks/animaticjs#readme",
+  "devDependencies": {
+    "rollup": "^4.0.0",
+    "@rollup/plugin-terser": "^0.4.4"
+  }
+}
